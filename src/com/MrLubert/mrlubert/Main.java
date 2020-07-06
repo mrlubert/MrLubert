@@ -35,12 +35,33 @@ public class Main extends JavaPlugin implements Listener {
 
 		this.tab = new TabManager(this);
 
-		tab.addHeader("&b&lSketch's Sub Server");
-		tab.addHeader("&b&lSketch's Sub Server");
-		tab.addHeader("&b&lSketch's Sub Server");
-		tab.addHeader("&5&lSketch's Sub Server");
-		tab.addHeader("&5&lSketch's Sub Server");
-		tab.addHeader("&5&lSketch's Sub Server");
+		tab.addHeader("&b&lSketch's &5&lSub Server\n&b----------------------");
+		tab.addHeader("&b&lSketch's &5&lSub Server\n&b----------------------");
+		tab.addHeader("&b&lSketch's &5&lSub Server\n&b----------------------");
+		tab.addHeader("&b&lSketch's &5&lSub Server\n&b----------------------");
+		tab.addHeader("&b&lSketch's &5&lSub Server\n&b----------------------");
+		tab.addHeader("&b&lSketch's &5&lSub Server\n&b----------------------");
+		tab.addHeader("&b&lSketch's &5&lSu Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&lS Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&lServer\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&lServer\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&lServer\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l  Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l   Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l    Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l     Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l      Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l     Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l    Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l   Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l  Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&l Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&lS Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&lSu Server\n&4----------------------");
+		tab.addHeader("&b&lSketch's &5&lSub Server\n&b----------------------");
+		tab.addHeader("&b&lSketch's &5&lSub Server\n&b----------------------");
 
 		tab.showTab();
 	}
