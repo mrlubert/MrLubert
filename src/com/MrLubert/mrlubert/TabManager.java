@@ -50,7 +50,7 @@ public class TabManager {
 
 					a.set(packet, headers.get(count1));
 
-					b.set(packet, "&bPlayers Online: &b" + Bukkit.getOnlinePlayers().size() + " &8&l/ &b" + Bukkit.getMaxPlayers());
+					b.set(packet, new ChatComponentText("&bPlayers Online: &b" + Bukkit.getOnlinePlayers().size() + " &8&l/ &b" + Bukkit.getMaxPlayers()));
 
 					count1++;
 					count2++;
