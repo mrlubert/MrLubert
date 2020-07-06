@@ -55,11 +55,8 @@ public class TabManager {
 					count1++;
 					count2++;
 
-					System.out.println(ChatColor.DARK_RED + "Loop");
-
 					for (Player player : Bukkit.getOnlinePlayers())
 						((CraftPlayer) player).getHandle().playerConnection.sendPacket(packet);
-					System.out.println(ChatColor.DARK_RED + "Sent Packet");
 
 				} catch (Exception e) {
 					e.printStackTrace();
