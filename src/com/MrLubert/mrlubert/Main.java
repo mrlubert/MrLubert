@@ -1,6 +1,5 @@
 package com.MrLubert.mrlubert;
 
-//import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
@@ -42,8 +41,6 @@ public class Main extends JavaPlugin implements Listener {
 		tab.addHeader("&5&lSketch's Sub Server");
 		tab.addHeader("&5&lSketch's Sub Server");
 		tab.addHeader("&5&lSketch's Sub Server");
-
-		//tab.addFooter("&bPlayers Online: &b" + Bukkit.getOnlinePlayers().size() + " &8&l/ &b" + Bukkit.getMaxPlayers());
 
 		tab.showTab();
 	}
